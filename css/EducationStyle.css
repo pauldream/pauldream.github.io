@@ -1,0 +1,261 @@
+html, body, #introduction
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	z-index: 3;
+}
+p
+{
+	display: block;
+	margin: 0;
+	padding: 3px;
+	line-height: 100%;
+}
+
+
+
+/* experience section */
+.experience
+{
+	display: block;
+}
+.experience-title
+{
+	width: 30%;
+	height: 840px;
+	padding: 160px 0 0 0;
+	float: left;
+	background-color: #eaf4f6;
+}
+.experience-title > p
+{
+	font-size: 32px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	text-align: center;
+}
+.experience-div
+{
+	display: inline-block;
+	width: 67%;
+	height: 570px;
+	padding: 80px 0px 0px 3%;
+}
+#scroll_amazonexperience
+{
+	height: 270px;
+}
+.experience-logo-div
+{
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 60px;
+}
+.experience-logo
+{
+	width: 70%;
+}
+.experience-content
+{
+	display: inline-block;
+	width: 80%;
+	font-family: "Raleway", Helvetica;
+	/*height: 100%;*/
+}
+.experience-content ul
+{
+	padding-left: 64px; 
+	list-style:none;
+}
+.experience-organization
+{
+	padding: 60px 0 0px 25px;
+}
+.experience-organization a
+{
+	font-size: 24px;
+	color: #1f496f;
+	text-decoration: none;
+}
+.experience-organization a:hover
+{
+	color: #e2a432;
+}
+.experience-position
+{
+	font-size: 18px;
+	/*font-style: italic;*/
+	color: #1f496f;
+	padding: 20px 0 15px 40px;
+}
+.experience-detail
+{
+	width: 80%;
+	font-size: 15px;
+	color: #566c8e;
+	line-height: 150%;
+	padding-bottom: 10px;
+}
+.experience-detail li { 
+	margin-bottom: 10px;
+}
+.experience-detail li:before {    
+    font-family: 'FontAwesome';
+    content: '\f03a';
+    margin:0 5px 0 -22px;
+}
+.experience-detail-container
+{
+	margin-top: -26px;
+	margin-bottom: 20px;
+}
+.experience-detail-bullet
+{
+	font-size: 16px;
+	line-height: 150%;
+}
+
+
+
+
+/* education section */
+.education
+{
+	display: block;
+}
+.education-title
+{
+	width: 30%;
+	height: 1250px;
+	padding: 150px 0 0 0;
+	float: right;
+	background-color: #eaf4f6;
+}
+.education-title > p
+{
+	font-size: 32px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	text-align: center;
+}
+.education-div
+{
+	display: inline-block;
+	width: 67%;
+	height: 620px;
+	padding: 80px 0px 0px 3%;
+}
+.education-logo-div
+{
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 50px;
+}
+.education-logo
+{
+	width: 60%;
+}
+.education-content
+{
+	display: inline-block;
+	width: 80%;
+	height: 100%;
+	font-family: "Raleway", Helvetica;
+}
+.education-content ul
+{
+	padding-left: 65px; 
+	list-style:none;
+}
+.education-organization
+{
+	padding: 50px 0 10px 25px;
+}
+.education-organization a
+{
+	font-size: 24px;
+	color: #1f496f;
+	text-decoration: none;
+}
+.education-organization a:hover
+{
+	color: #e2a432;
+}
+.education-position
+{
+	font-size: 18px;
+	color: #1f496f;
+	padding: 10px 0 5px 40px;
+}
+.education-detail
+{
+	width: 85%;
+	font-size: 15px;
+	color: #566c8e;
+	line-height: 150%;
+}
+.education-detail li { 
+	margin-bottom: 5px;
+}
+.education-detail li:before {    
+    font-family: 'FontAwesome';
+    content: '\f03a';
+    margin:0 5px 0 -23px;
+}
+.education-detail-container
+{
+	margin-top: -25px;
+	margin-bottom: 15px;
+}
+.education-detail-container ul
+{
+	padding-left: 25px; 
+	list-style:none;
+}
+.education-course
+{
+	font-size: 16px;
+	line-height: 150%;
+	padding-bottom: 10px;
+}
+.education-research
+{
+	font-size: 16px;
+	line-height: 150%;
+	padding-bottom: 5px;
+}
+.education-course-detail li:before {    
+    font-family: 'FontAwesome';
+    content: '\f02d';
+    margin:0 5px 0 -20px;
+}
+.education-research-detail li:before {    
+    font-family: 'FontAwesome';
+    content: '\f02d';
+    margin:0 5px 0 -20px;
+}
+.education-course-container
+{
+	margin-top: -25px;
+}
+.education-research-container
+{
+	margin-top: -25px;
+}
+.education-course-info
+{
+	font-size: 15px;
+	line-height: 150%;
+}
+.education-research-info
+{
+	font-size: 15px;
+	line-height: 150%;
+}

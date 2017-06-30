@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> SIYANG XIE - PROJECT </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="js/slideShow.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/SiyangStyle.css"> 
+    <link rel="stylesheet" type="text/css" href="css/ProjectStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/ResponsiveStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/SiyangFont.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #slideShowImages { /* The following CSS rules are optional. */
+          width: 100%;
+          position: relative;
+          /*border: 1px gray solid;*/
+          /*background-color: lightgray;*/
+        }   
+        #slideShowImages img { /* The following CSS rules are optional. */
+          width: 60%;
+          /*border: 0.8em black solid;*/
+          padding: 3px;
+        }   
+    </style>
+    <script src="js/SiyangScript.js"></script>
+</head>
+
+<body>
+<header>
+  <div class="header-container-fixed">
+    <div class="header-name">
+      <p><a href="http://www.siyangxie.com"> SIYANG XIE </a></p>
+    </div>
+    <div class="header-menu">
+        <div class="dropbutton">
+            <a href="#scroll_intro"><i class="fa fa-bars" aria-hidden="true"></i></a>
+		</div>
+	    <ul class="header-ul">
+  			<li class="navbar-fixed"> <a class="no-dropdown" href="http://www.siyangxie.com">HOME</a> </li>
+            <li class="navbar-fixed"> <a class="no-dropdown" href="education.html">EDUCATION</a> </li>
+  			<li class="list-in-li active"> <a class="with-dropdown" href="#">RESEARCH</a>
+  				<ul class="dropdown">
+    				<li class="active"> <a href="project.html">PROJECT</a> </li>
+    				<li> <a href="publication.html">PUBLICATION</a> </li>
+  				</ul>
+  			</li>
+  			<li class="navbar-fixed"> <a class="no-dropdown" href="collection.html">COLLECTION</a> </li>
+  			<li class="navbar-fixed"> <a class="no-dropdown" href="http://www.siyangxie.com#scroll_contact">CONTACT</a> </li>
+		</ul>
+    </div>
+  </div>
+</header>
+
+
+<main>
+  <div class="timeline">
+    <div class="timeline-title">
+        <p>PROJECT</p>
+        <p><b>TIMELINE</b></p>
+        <!-- <p>时间轴</p> -->
+    </div>
+    <div class="timeline-content">
+        <iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AmM9OrnWpAE2dGxmbzR2V3F2ZWVfSi1Da0xKT0FHelE&font=Bevan-PotanoSans&maptype=toner&lang=en&start_at_end=true&height=650' class="timeline" width='97%' height='650' frameborder='0'>
+        </iframe> 
+    </div>
+  </div>
+
+
+
+  <div class="project facilitylocation-div">
+    <div class="project-area facilitylocation">
+      <p class="project-area-name"><b>FACILITY LOCATION</b></p>
+      <p class="project-area-time">2013/08 - 2017/04</p>
+      <p class="project-area-coauthor"> With Professor <a href="http://webhost.engr.illinois.edu/~yfouyang" target="_blank">Yanfeng Ouyang</a> </p>
+      <p class="project-area-institution"><a href="http://illinois.edu/" target="_blank">University of Illinois</a> </p>
+    </div>
+ 
+      <div class="project-container">
+        <div class="project-content">
+          <p class="project-title"> CORRELATED FACILITY DISRUPTION </p>
+          <ul class="project-detail">
+            <li> Designed an overarching model framework for facility location design under correlated facility disruptions </li>
+            <li> Introduced the idea of supporting station structure to decompose any type of facility correlations </li>
+            <li> Proposed a mixed-integer model and Lagrangian relaxation based algorithms to solve the RFL problem </li>
+          </ul>
+        </div>
+        <div class="project-image-container">
+          <img class="project-image" src="images/correlation.png"/>
+        </div>
+      </div>
+   
+      <div class="project-container">
+        <div class="project-content">
+          <p class="project-title"> RELIABLE SENSOR DEPLOYMENT </p>
+          <ul class="project-detail">
+            <li> Optimized sensor deployment locations to maximize system-wide positioning/surveillance benefits </li>
+            <li> Incorporated the risk of site-dependent probabilistic sensor disruptions into the optimization framework </li>
+            <li> Developed a compact mixed-integer programming model and designed several customized algorithms </li>
+          </ul>
+        </div>
+        <div class="project-image-container">
+          <img class="project-image" src="images/ohare_setup.png"/>
+        </div>
+      </div>
+    
+      <div class="project-container">
+        <div class="project-content">
+          <p class="project-title"> RELIABLE NETWORK DISTRICTING </p>
+          <ul class="project-detail">
+            <li> Designed mixed-integer models for reliable network districting problems with multiple practical criteria </li>
+            <li> Developed both customized heuristic algorithms and column-generation based algorithms </li>
+            <li> Used by CSX Transportation Inc to solve their large-scale districting applications (e.g., call center design) </li>
+          </ul>
+        </div>
+        <div class="project-image-container">
+            <img class="project-image" src="images/districting.png"/>
+        </div>
+      </div>
+  </div>
+
+
+
+  <div class="project railroad-div">
+    <div class="project-area railroad" id="scroll_railroad">
+        <p class="project-area-name"><b>RAILROAD PLANNING</b></p>
+        <p class="project-area-time">2013/10 - 2016/10</p>
+        <p class="project-area-coauthor"> With Professor <a href="http://webhost.engr.illinois.edu/~yfouyang" target="_blank">Yanfeng Ouyang</a> & Kamalesh Somani </p>
+        <p class="project-area-institution"><a href="http://illinois.edu/" target="_blank">University of Illinois</a> & <a href="http://www.csx.com/" target="_blank">CSX Transportation</a> </p>
+    </div>
+
+      <div class="project-container">
+        <div class="project-content">
+          <p class="project-title"> LOCOMOTIVE INFRASTRUCTURE </p>
+          <ul class="project-detail">
+            <li> Developed large-scale mixed-integer mathematical models and decomposition-based solution algorithms </li>
+            <li> Numerous field studies demonstrated significant superiority of the model solutions over the current practice </li>
+            <li> Used proactively by CSX Transportation Inc and have realized annual savings of more than $10 millions </li>
+          </ul>
+        </div>
+        <div class="project-image-container">
+          <img class="project-image" src="images/Routing.png">
+        </div>
+      </div>
+
+      <div class="project-container">
+        <div class="project-content">
+          <p class="project-title"> NETWORK TRAVERSAL SCHEDULING </p>
+          <ul class="project-detail">
+            <li> Designed mathematical programs and heuristic algorithms to schedule periodic traversal of network vertices </li>
+            <li> Developed graph packages with implementations of multiple data structures and graph algorithms (e,g., BFS/DFS, Dijkstra’s, Floyd-Warshall, Ford-Fulkerson) </li>
+            <li> Used by CSX Transportation Inc to solve their grinder scheduling problems </li>
+          </ul>
+        </div>
+        <div class="project-image-container">
+          <img class="project-image" src="images/grinding.png" style="margin-bottom: 10%;">
+        </div>
+      </div>
+
+  </div>
+
+
+
+  <div class="project machinelearning-div">
+    <div class="project-area machinelearning" id="scroll_machinelearning">
+        <p class="project-area-name"><b>MACHINE LEARNING</b></p>
+        <p class="project-area-time">2015/09 - 2016/12</p>
+        <p class="project-area-coauthor"> With Professor <a href="http://webhost.engr.illinois.edu/~yfouyang" target="_blank">Yanfeng Ouyang</a> & <a href="http://zhaodongwang.net" target="_blank"> Zhaodong Wang </a> </p>
+        <p class="project-area-institution"><a href="http://illinois.edu" target="_blank">University of Illinois</a> </p>
+    </div>
+
+      <div class="project-container">
+        <div class="project-content">
+          <p class="project-title"> FAILURE PREDICTION </p>
+          <ul class="project-detail">
+            <li> Applied machine learning techniques (e.g., SVM, kernel) to learn an traffic/railroad incident prediction model </li>
+            <li> Used customized simulation-based over-sampling technique to handle the issue of data unbalance </li>
+            <li> Implemented the cross-validation approach in Matlab to evaluate the model in terms of precision and recall </li>
+          </ul>
+        </div>
+        <div class="project-image-container">
+          <img class="project-image" src="images/svm.png">
+        </div>
+      </div>
+
+  </div>
+
+
+
+  <div class="project signaltiming-div">
+    <div class="project-area signaltiming" id="scroll_signal">
+        <p class="project-area-name"><b>SIGNAL TIMING</b></p>
+        <p class="project-area-time">2011/11 - 2014/05</p>
+        <p class="project-area-coauthor"> With Professor <a href="http://www.ie.tsinghua.edu.cn/Show/index/cid/29/id/39.html" target="_blank">Hai Jiang</a> & <a href="http://web.mit.edu/chiwei/www/" target="_blank"> Chiwei Yan</a></p>
+        <p class="project-area-institution">
+        <a href="http://www.tsinghua.edu.cn/publish/newthu/index.html" target="_blank">Tsinghua University</a> </p>
+    </div>
+
+      <div class="project-container">
+        <div class="project-content">
+          <p class="project-title"> PHASE SWAP STRATEGY </p>
+          <ul class="project-detail">
+            <li> Proposed an operational paradigm for the phase swap sorting strategy to increase capacity of intersections </li>
+            <li> Built a mixed-integer model to formulate the paradigm with both geometric and signal timings decisions </li>
+            <li> Implemented the paradigm into simulation programs to visualize and validate the proposed model solutions </li>
+          </ul>
+        </div>
+        <div class="project-image-container">
+          <img class="project-image" src="images/continuous_flow.jpg">
+        </div>
+      </div>
+
+
+      <div class="signal-video">
+        <iframe id="video" src="https://www.youtube.com/embed/a4RE-iFuhQc" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+
+      <div class="project-container">
+        <div class="project-content">
+          <p class="project-title"> UNCONVENTIONAL INTERSECTION DESIGN </p>
+          <ul class="project-detail">
+            <li> Proposed a new unconventional intersection design to increase the capacity of isolated intersections </li>
+            <li> Built a mixed-integer model to formulate the paradigm with both geometric and signal timings decisions </li>
+            <li> Conducted numerical experiments to quantify the benefit of the proposed design against the conventional design </li>
+          </ul>
+        </div>
+        <div class="project-image-container">
+          <img class="project-image" src="images/exitlane.png">
+        </div>
+      </div>
+
+  </div>
+
+
+
+</main>
+
+
+<footer id="section-footer">
+  <div class="copyright">
+    <div class="copyright-column">
+      <p> Copyright&nbsp;©&nbsp;2017 &nbsp<a class="homepage" href="http://www.siyangxie.com"> &nbsp Siyang Xie</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

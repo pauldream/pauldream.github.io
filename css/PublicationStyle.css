@@ -1,0 +1,182 @@
+html, body, #introduction
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	z-index: 3;
+}
+p
+{
+	display: block;
+	margin: 0;
+	padding: 3px;
+	line-height: 100%;
+}
+
+
+
+
+
+.publication-container
+{
+	font-family: "Raleway", Helvetica;
+	font-weight: 100;
+	margin-top: -25px;
+	margin-bottom: 20px;
+}
+.publication-title
+{
+	font-size: 16px;
+	line-height: 150%;
+}
+.publication-title a
+{
+	font-size: 15px;
+	color: #bbe385;
+	text-decoration: none;
+}
+.publication-title a:hover
+{
+	color: #e2a432;
+}
+.publication-journal
+{
+	font-style: italic;
+	line-height: 150%;
+}
+.publication-manuscript
+{
+	font-style: italic;
+	line-height: 150%;
+}
+.publication-author
+{
+	line-height: 150%;
+}
+.author-myself
+{
+    	font-weight: bold;
+}
+
+
+
+
+/* journal section */
+.journal
+{
+	display: block;
+}
+.journal-title
+{
+	width: 30%;
+	height: 1050px;
+	padding: 150px 0 0 0;
+	float: left;
+	text-align: center;
+	background-color: #eaf4f6;
+}
+.journal-title > p
+{
+	font-size: 32px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	text-align: center;
+}
+.journal-div
+{
+	width: 70%;
+	height: 1100px;
+	padding: 100px 0 0 0;
+	float: right;
+}
+.journal-content-topic
+{
+	font-size: 24px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	padding: 50px 0 10px 80px;
+}
+.journal-content-list
+{
+	width: 80%;
+	font-size: 15px;
+	font-family: "Raleway", Helvetica;
+	color: #566c8e;
+	line-height: 150%;
+}
+.journal-content ul
+{
+	padding-left: 120px; 
+	list-style:none;
+}
+.journal-content-list li { 
+	margin-bottom: 10px;
+}
+.journal-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -25px;
+}
+
+
+
+
+/* manuscript section */
+.manuscript
+{
+	display: block;
+}
+.manuscript-title
+{
+	width: 30%;
+	height: 600px;
+	padding: 100px 0 0 0;
+	float: right;
+	text-align: center;
+	background-color: #eaf4f6;
+}
+.manuscript-title > p
+{
+	font-size: 32px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	text-align: center;
+}
+.manuscript-div
+{
+	width: 70%;
+	height: 680px;
+	padding: 20px 0 0 0;
+	float: left;
+}
+.manuscript-content-topic
+{
+	font-size: 24px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	padding: 50px 0 10px 80px;
+}
+.manuscript-content-list
+{
+	width: 80%;
+	font-size: 15px;
+	font-family: "Raleway", Helvetica;
+	color: #566c8e;
+	line-height: 150%;
+}
+.manuscript-content ul
+{
+	padding-left: 120px; 
+	list-style:none;
+}
+.manuscript-content-list li { 
+	margin-bottom: 10px;
+}
+.manuscript-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -25px;
+}
+

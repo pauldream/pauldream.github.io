@@ -1,0 +1,350 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	z-index: 3;
+}
+p
+{
+	display: block;
+	margin: 0;
+	padding: 3px;
+	line-height: 100%;
+}
+
+
+
+
+
+
+.collection-container
+{
+	display: block;
+	font-family: "Raleway", Helvetica;
+	font-weight: 100;
+	margin-top: -28px;
+	margin-bottom: 20px;
+}
+.collection-title
+{
+	font-size: 18px;
+	line-height: 150%;
+}
+.collection-title a
+{
+	font-size: 15px;
+	color: #bbe385;
+	text-decoration: none;
+}
+.collection-title a:hover
+{
+	color: #e2a432;
+}
+.collection-journal
+{
+	font-style: italic;
+	line-height: 150%;
+}
+.collection-manuscript
+{
+	font-style: italic;
+	line-height: 150%;
+}
+.collection-author
+{
+	line-height: 150%;
+}
+
+
+.collection-big-title
+{
+	font-size: 36px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	text-decoration: none;
+	/*text-align: center;*/
+}
+
+
+/* course section */
+.course
+{
+	display: block;
+}
+.course-title
+{
+	width: 20%;
+	height: 700px;
+	padding: 150px 5% 0 5%;
+	float: left;
+	text-align: center;
+	background-color: #eaf4f6;
+}
+.course-title > p
+{
+	font-size: 32px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	text-align: center;
+}
+.course-div
+{
+	width: 70%;
+	height: 750px;
+	padding: 100px 0 0 0;
+	float: right;
+}
+.course-content-topic
+{
+	font-size: 24px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	padding: 50px 0 10px 80px;
+}
+.course-content-list
+{
+	width: 80%;
+	font-size: 15px;
+	font-family: "Raleway", Helvetica;
+	color: #566c8e;
+	line-height: 150%;
+}
+.course-content ul
+{
+	padding-left: 120px; 
+	list-style:none;
+}
+.course-content-list li { 
+	margin-bottom: 10px;
+}
+.course-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -25px;
+}
+
+
+
+
+/* paper section */
+.paper
+{
+	display: block;
+}
+.paper-title
+{
+	width: 20%;
+	height: 770px;
+	padding: 80px 5% 0 5%;
+	float: right;
+	text-align: center;
+	background-color: #eaf4f6;
+}
+.paper-title > p
+{
+	font-size: 32px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	text-align: center;
+}
+.paper-div
+{
+	width: 70%;
+	height: 800px;
+	padding: 50px 0 0 0;
+	float: right;
+}
+.paper-content-topic
+{
+	font-size: 24px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	padding: 50px 0 10px 80px;
+}
+.paper-content-list
+{
+	width: 80%;
+	font-size: 15px;
+	font-family: "Raleway", Helvetica;
+	color: #566c8e;
+	line-height: 150%;
+}
+.paper-content ul
+{
+	padding-left: 120px; 
+	list-style:none;
+}
+.paper-content-list li { 
+	margin-bottom: 10px;
+}
+.paper-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -25px;
+}
+
+
+
+
+/* general area section */
+.font-icons
+{
+	display: block;
+}
+.font-icons-title
+{
+	width: 30%;
+	height: 280px;
+	padding: 80px 0 0 0;
+	float: left;
+	text-align: center;
+	background-color: #eaf4f6;
+}
+.font-icons-title > p
+{
+	font-size: 32px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	text-decoration: none;
+}
+.font-icons-content
+{
+	display: inline-block;
+	width: 64%;
+	height: 300px;
+	padding: 0px 0px 60px 3%;
+	float: left;
+	background-color: #ffffff; 
+	opacity: 1.0;
+}
+.font-icons-content-bullet
+{
+	display: inline-block;
+	width: 49%;
+	/*height: 300px;*/
+}
+.font-icons-content-bullet-title
+{
+	width: 70%;
+	font-size: 22px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+	opacity: 1.0;
+	text-decoration: none;
+	padding: 80px 0 20px 50px;
+}
+.font-icons-content-bullet-title a
+{
+	text-decoration: none;
+	color: #1f496f;
+}
+.font-icons-content-bullet-title a:hover
+{
+	width: 70%;
+	font-size: 22px;
+	font-family: "Raleway", Helvetica;
+	color: #e2a432;
+	opacity: 1.0;
+	text-decoration: none;
+}
+.font-icons-content-bullet-content
+{
+	width: 70%;
+	font-size: 15px;
+	font-family: "Raleway", Helvetica;
+	line-height: 135%;
+	opacity: 1.0;
+	text-decoration: none;
+	padding-left: 50px;
+}
+.font-icons-content-bullet-content i
+{
+	padding: 2px 2px;
+}
+.font-icons-content-bullet-content i:hover
+{
+	color: white;
+	background-color: #e2a432; /* #1d9c73; */
+	cursor: pointer;
+	transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+/* show text when hovering on an icon */
+.fontawesome-icon
+{
+	display: inline-block;
+}
+.tooltiptext {
+    visibility: hidden;
+    background-color: #555;
+    text-align: left;
+    padding: 0 5px;
+    position: absolute;
+    z-index: 1;
+    font-size: 10px;
+    /*bottom: 20%;*/
+    /*left: 20%;*/
+    margin-left: 0%;
+    margin-top: 2px;
+    /*opacity: 0;*/
+    /*transition: opacity 1s;*/
+}
+.fontawesome-icon:hover .tooltiptext {
+    visibility: visible;
+    color: white;
+    background-color: #e2a432;
+    transition: all 0.2s ease;
+}
+
+
+
+
+
+/* footer section */
+#section-footer
+{	
+	background-color: #ffffff;
+	text-align: center;
+}
+.copyright
+{
+	display: block;
+	background-color: rgba(55, 125, 189, 0.6);
+}
+/*.contact-title
+{
+	width: 25%;
+	height: 270px;
+	padding: 100px 0px 30px 15%;
+	float: left;
+	background-color: rgba(31, 73, 111, 0.8);
+}*/
+.copyright-column
+{
+	/*display: inline-block;*/
+	width: 100%;
+	background-color: white;
+	height: 30px;
+	float: left;
+	padding: 20px 0 10px;
+}
+.copyright-column p
+{
+	font-family: "Raleway";
+	font-size: 18px;
+	font-weight: 400;
+	color: #1f496f;
+}
+.copyright-column a
+{
+	color: #1f496f;
+	text-decoration: none;
+}
+.copyright-column a:hover
+{
+	color: #e2a432;
+	text-decoration: none;
+}

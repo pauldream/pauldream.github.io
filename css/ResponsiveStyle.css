@@ -1,0 +1,1081 @@
+@media only screen and (max-width: 420px) {
+
+p
+{
+	display: block;
+	margin: 0;
+	padding: 3px;
+	line-height: 100%;
+}
+
+
+
+/* Header css file */
+.header-container-fixed
+{
+	top: 0px; /* the gap to the page top */
+	height: 80px;
+}
+.header-name
+{
+	display: inline-lock;
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+.header-name > p a
+{
+	font-size: 20px;
+	padding-top: 30px;
+}
+.header-menu
+{
+	float: right;
+	background-color: white;
+	text-align: right;
+}
+.dropbutton
+{
+    display: block;
+	background-color: white;
+    width: 128px;
+    height: 57px;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 23px;
+    /*padding-left: 80px;*/
+}
+.dropbutton >a
+{
+    padding-right: 24px; 
+    color: #1f496f;
+}
+.header-menu:hover > ul.header-ul
+{
+	visibility: visible;
+	line-height: 15px;
+	opacity: 1.0;
+}
+ul.header-ul
+{
+	visibility: hidden;
+	display: block;
+	width: 128px;
+	line-height: 0px;
+	position: absolute;
+	opacity: 0;
+	margin: 0 0 0 0;
+	background-color: white;
+	transition: all 0.2s ease 0.2s;
+}
+
+
+
+/* intro section in HOME page */
+.intro
+{
+    margin-top: -70px;
+	height: 520px;
+}
+.my-brand
+{
+	width: 85%;
+	height: 480px;
+	padding: 40px 0 0 15%;
+	background-color: rgba(86, 108, 142, 0.7); 
+}
+.my-brand > p
+{
+	font-size: 14px;
+	font-family: "Raleway", Helvetica;
+	text-decoration: none;
+}
+#my-name
+{
+	padding-bottom: 15px;
+}
+#my-name > a
+{
+	font-size: 28px;
+	font-family: "Raleway", Helvetica;
+	text-decoration: none;
+}
+#self-intro
+{
+	font-size: 12px;
+	font-family: "Raleway", Helvetica;
+	color: #ffffff;
+	line-height: 150%;
+	text-decoration: none;
+	margin: 40px 50px -20px 0;
+}
+#self-intro > a
+{
+	display: inline;
+	font-size: 12px;
+	font-family: "Raleway", Helvetica;
+	color: #bbe385;
+	text-decoration: none;
+}
+
+#photo-section1
+{
+	z-index: -2; 
+	position: relative; 
+	width: 100%; 
+	margin-top: 150px;
+}
+.background-photo
+{
+	position: absolute; 
+	text-align: center; 
+	width: 100%; 
+	opacity: 0.7; 
+	margin: auto; 
+	left: 0; 
+	right: 0;
+}
+
+
+
+/* education area section in HOME page */
+.edu-exp
+{
+    height: 800px;
+}
+.edu-exp-title
+{
+	width: 100%;
+	height: 65px;
+	padding: 15px 0 0 0;
+	text-align: center;
+}
+.edu-exp-title > p
+{
+	font-size: 20px;
+}
+.edu-exp-content
+{
+	width: 90%;
+	height: 180px;
+	padding: 0 0 0 10%;
+	text-decoration: none;
+}
+.edu-exp-logo-div
+{
+    width: 20%;
+}
+.edu-exp-logo
+{
+	width: 80%;
+}
+.edu-exp-detail
+{
+	width: 78%;
+}
+.edu-exp-name
+{
+	font-size: 16px;
+	padding: 0 0 10px 25px;
+}
+.edu-exp-name a:hover
+{
+	font-size: 16px;
+}
+.edu-exp-position
+{
+	font-size: 12px;
+	padding-left: 35px;
+}
+
+
+
+/* research section in HOME page */
+.research
+{
+	height: 1480px;
+}
+.research-title
+{
+	width: 100%;
+	height: 65px;
+	padding: 15px 0px 0px 0;
+	text-align: center;
+}
+.research-title > p
+{
+	font-size: 20px;
+}
+.research-div
+{
+	height: 700px;
+	width: 100%;
+}
+.research-bullet
+{
+	height: 350px;
+	width: 100%;
+}
+.research-container
+{
+	width: 75%;
+}
+.research-description
+{
+	font-size: 15px;
+}
+.research-time
+{
+	font-size: 12px;
+}
+.research-link
+{
+	padding: 4px 0 4px 0;
+	text-align: right;
+}
+.research-button
+{
+	font-size: 12px;
+	padding: 8px 10px;
+}
+
+
+
+/* photograph section in HOME page */
+.photograph
+{
+	height: 1880px;
+}
+.photograph-title
+{
+	width: 100%;
+	height: 55px;
+	padding: 25px 0 0 0;
+	text-align: center;
+	background-color: rgba(31, 73, 111, 0.8);
+}
+.photograph-title > p
+{
+	font-size: 20px;
+	color: white;
+}
+.photograph-div
+{
+	width: 100%;
+	height: 900px;
+}
+.photograph-bullet
+{
+	width: 100%;
+    height: 295px;
+}
+.photograph-container
+{
+	width: 100%;
+	/*background-color: #eaf4f6;*/
+}
+.photograph-photo-container
+{
+	width: 94%;
+	padding: 15px 3% 5px 3%;
+	background-color: #eaf4f6;
+}
+.photograph-photo
+{
+	width: 100%;
+}
+.photograph-photo:hover
+{
+	opacity: 0.6;
+}
+.photograph-description
+{
+	font-size: 15px;
+	background-color: #eaf4f6;
+	padding: 10px 0 10px 0;
+}
+
+
+
+/* contact section in HOME page */
+.contact
+{
+	height: 480px;
+}
+.contact-title
+{
+	width: 100%;
+	height: 55px;
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+.contact-title > p
+{
+	font-size: 20px;
+}
+
+.contact-static
+{
+	width: 100%;
+	height: 300px;
+}
+.contact-detail-container
+{
+	width: 100%;
+	height: 100px;
+}
+.contact-icon
+{
+	height: 20px;
+	padding: 15px 0 10px 0;
+}
+.contact-info
+{
+	height: 20px;
+	padding: 10px 0 15px 0;
+}
+
+.contact-dynamic
+{
+    /*overflow: hidden;*/
+	width: 100%;
+	height: 100px;
+	opacity: 0.7;
+}
+.contact-social-container
+{
+	width: 100%;
+	height: 100px;
+	float: center;
+	text-align: center;
+}
+.contact-social-title
+{
+    overflow: hidden;
+    height: 0px;
+}
+.contact-newsletter-container
+{
+    display: none;   
+}
+/* social icon */
+.social-icons-div
+{
+	padding: 0 0 0 0;
+}
+
+
+
+/* experience section in EDUCATION page */
+.experience
+{
+	height: 800px;
+}
+.experience-title
+{
+	width: 100%;
+	height: 55px;
+	margin-top: 80px;
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+.experience-title > p
+{
+	font-size: 20px;
+}
+.experience-div
+{
+	width: 90%;
+	height: 520px;
+	padding: 0 0 0 6%;
+	text-decoration: none;
+}
+#scroll_amazonexperience
+{
+	height: 200px;
+}
+.experience-logo-div
+{
+	width: 18%;
+}
+.experience-logo
+{
+	width: 80%;
+}
+.experience-content
+{
+	width: 80%;
+}
+.experience-organization
+{
+	padding: 50px 0 0px 4%;
+}
+.experience-organization a
+{
+	font-size: 16px;
+}
+.experience-position
+{
+	font-size: 12px;
+	padding: 10px 0 0 7%;
+	line-height: 135%;
+}
+.experience-detail
+{
+	width: 82%;
+	padding-bottom: 0;
+}
+.experience-content ul
+{
+	padding-left: 13%; 
+}
+.experience-detail li { 
+    margin-top: -10px;
+	margin-bottom: 0px;
+}
+.experience-detail li:before {    
+    font-family: 'FontAwesome';
+    content: '\f03a';
+    margin: 0 0 0 -15px;
+    font-size: 10px;
+}
+.experience-detail-container
+{
+	margin-top: -23px;
+	margin-bottom: 10px;
+}
+.experience-detail-bullet
+{
+	font-size: 12px;
+	line-height: 135%;
+}
+
+
+
+/* education section in EDUCATION page */
+.education
+{
+	height: 1040px;
+}
+.education-title
+{
+	width: 100%;
+	height: 55px;
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+.education-title > p
+{
+	font-size: 20px;
+}
+.education-div
+{
+	width: 92%;
+	height: 480px;
+	padding: 0px 0px 0px 6%;
+}
+.education-logo-div
+{
+	width: 16%;
+	padding-top: 60px;
+}
+.education-logo
+{
+	width: 60%;
+}
+.education-content
+{
+	width: 80%;
+}
+.education-content ul
+{
+	padding-left: 40px; 
+}
+.education-organization
+{
+	padding: 50px 0 5px 15px;
+}
+.education-organization a
+{
+	font-size: 16px;
+}
+.education-position
+{
+	font-size: 12px;
+	color: #1f496f;
+	padding: 10px 0 0 25px;
+}
+.education-detail
+{
+	width: 85%;
+	line-height: 150%;
+}
+.education-detail li { 
+	margin-bottom: 0;
+}
+.education-detail li:before {    
+    font-family: 'FontAwesome';
+    content: '\f03a';
+    margin:0 5px 0 -15px;
+    font-size: 10px;
+}
+.education-detail-container
+{
+	margin-top: -23px;
+	margin-bottom: 10px;
+}
+.education-detail-container ul
+{
+	padding-left: 16px; 
+}
+.education-course
+{
+	font-size: 12px;
+	line-height: 130%;
+	padding-bottom: 0;
+}
+.education-research
+{
+	font-size: 12px;
+	line-height: 130%;
+	padding-bottom: 0;
+}
+.education-course-detail li:before {    
+    font-family: 'FontAwesome';
+    content: '\f02d';
+    margin:0 5px 0 -12px;
+}
+.education-research-detail li:before {    
+    font-family: 'FontAwesome';
+    content: '\f02d';
+    margin:0 0 0 -12px;
+}
+.education-course-container
+{
+	margin-top: -22px;
+}
+.education-research-container
+{
+	margin-top: -22px;
+}
+.education-course-info
+{
+	font-size: 10px;
+	line-height: 130%;
+}
+.education-research-info
+{
+	font-size: 10px;
+	line-height: 130%;
+}
+
+
+
+/* journal section in PUBLICATION page */
+.publication-container
+{
+	margin-top: -18px;
+	margin-bottom: 10px;
+}
+.publication-title
+{
+	font-size: 12px;
+	line-height: 130%;
+}
+.publication-title a
+{
+	font-size: 10px;
+}
+.publication-journal
+{
+	font-size: 10px;
+	font-style: italic;
+	line-height: 130%;
+}
+.publication-manuscript
+{
+	font-size: 10px;
+	font-style: italic;
+	line-height: 130%;
+}
+.publication-author
+{
+	font-size: 10px;
+	line-height: 130%;
+}
+
+.journal
+{
+	margin-top: 80px;
+	height: 1030px;
+}
+.journal-title
+{
+	width: 100%;
+	height: 55px;
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+.journal-title > p
+{
+	font-size: 20px;
+}
+.journal-div
+{
+	width: 90%;
+	height: 950px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+.journal-content
+{
+	width: 80%;
+}
+.journal-content ul
+{
+	padding-left: 40px; 
+	list-style:none;
+}
+.journal-content-topic
+{
+	font-size: 16px;
+	color: #1f496f;
+	padding: 50px 0 10px 20px;
+}
+.journal-content-list
+{
+	width: 90%;
+	font-size: 12px;
+	line-height: 130%;
+}
+.journal-content-list li { 
+	margin-bottom: 10px;
+}
+.journal-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -18px;
+}
+
+
+
+/* manuscript section in PUBLICATION page */
+.manuscript
+{
+	height: 630px;
+}
+.manuscript-title
+{
+	width: 100%;
+	height: 55px;
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+.manuscript-title > p
+{
+	font-size: 20px;
+}
+.manuscript-div
+{
+	width: 90%;
+	height: 550px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+	float: right;
+}
+.manuscript-content
+{
+	width: 80%;
+}
+.manuscript-content ul
+{
+	padding-left: 40px; 
+	list-style:none;
+}
+.manuscript-content-topic
+{
+	font-size: 16px;
+	color: #1f496f;
+	padding: 50px 0 10px 20px;
+}
+.manuscript-content-list
+{
+	width: 90%;
+	font-size: 12px;
+	line-height: 130%;
+}
+.manuscript-content-list li { 
+	margin-bottom: 10px;
+}
+.manuscript-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -18px;
+}
+
+
+
+/* timeline section in PROJECT page */
+.timeline
+{
+	height: 750px;
+}
+.timeline-title
+{
+	width: 100%;
+	height: 75px;
+	margin-top: 80px;
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+.timeline-title > p
+{
+	font-size: 20px;
+}
+.timeline-content
+{
+	width: 100%;
+	height: 650px;
+	padding: 0;
+}
+
+
+
+/* facility location section in PROJECT page */
+.project-area
+{
+	width: 100%;
+	height: 115px;
+	margin-top: 0;
+	padding: 25px 0 0 0;
+}
+.project-area-name
+{
+	font-size: 20px;
+}
+.project-area-time
+{
+	font-size: 15px;
+}
+.project-area-coauthor
+{
+	font-size: 12px;
+	line-height: 130%;
+	margin: 5px 0 0 0;
+}
+.project-area-institution
+{
+	font-size: 12px;
+	line-height: 130%;
+}
+.project-area-institution > a
+{
+	color: #8fd0d7;
+	text-decoration: none;
+}
+.project-area-institution > a:hover
+{
+	color: #e2a432;
+}
+.project-container
+{
+	width: 96%;
+	height: 300px;
+	float: center;
+	text-align: center;
+}
+.project-image-container
+{
+	width: 28%;
+	line-height: 300px;
+}
+.project-image
+{
+	width: 100%;
+}
+.project-content
+{
+	width: 62%;
+	padding-top: 30px;
+	padding-left: 8%;
+}
+.project-title
+{
+	width: 150%;
+	font-size: 15px;
+	padding: 20px 0 5px 0;
+}
+.project-detail
+{
+	width: 88%;
+	font-size: 12px;
+	line-height: 130%;
+}
+.project-content ul
+{
+	padding-left: 20px; 
+	list-style:none;
+}
+.project-detail li { 
+	margin-bottom: 10px;
+}
+.project-detail li:before {    
+    font-family: 'FontAwesome';
+    content: '\f012';
+    margin:0 5px 0 -20px;
+    font-size: 10px;
+}
+.facilitylocation-div
+{
+    height: 1040px;
+}
+.railroad-div
+{
+    height: 740px;
+}
+.machinelearning-div
+{
+    height: 440px;
+}
+.signaltiming-div
+{
+    height: 1020px;
+}
+#video
+{
+    height: 160px;
+    width: 286px; 
+}
+
+
+
+
+/* paper section in COLLECTION page */
+.collection-container
+{
+	margin-top: -18px;
+	margin-bottom: 10px;
+}
+.collection-title
+{
+	font-size: 12px;
+	line-height: 130%;
+}
+.collection-title a
+{
+	font-size: 10px;
+}
+.collection-journal
+{
+	font-size: 10px;
+	font-style: italic;
+	line-height: 130%;
+}
+.collection-manuscript
+{
+	font-size: 10px;
+	font-style: italic;
+	line-height: 130%;
+}
+.collection-author
+{
+	font-size: 10px;
+	line-height: 130%;
+}
+
+.course
+{
+	margin-top: 80px;
+	height: 480px;
+}
+.course-title
+{
+	width: 100%;
+	height: 55px;
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+.course-title > p
+{
+	font-size: 20px;
+}
+.course-div
+{
+	width: 90%;
+	height: 600px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+.course-content
+{
+	width: 80%;
+}
+.course-content ul
+{
+	padding-left: 40px; 
+	list-style:none;
+}
+.course-content-topic
+{
+	font-size: 16px;
+	color: #1f496f;
+	padding: 50px 0 10px 20px;
+}
+.course-content-list
+{
+	width: 90%;
+	font-size: 12px;
+	line-height: 130%;
+}
+.course-content-list li { 
+	margin-bottom: 10px;
+}
+.course-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -18px;
+}
+
+.paper
+{
+	margin-top: 80px;
+	height: 680px;
+}
+.paper-title
+{
+	width: 100%;
+	height: 55px;
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+.paper-title > p
+{
+	font-size: 20px;
+}
+.paper-div
+{
+	width: 90%;
+	height: 600px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+.paper-content
+{
+	width: 80%;
+}
+.paper-content ul
+{
+	padding-left: 40px; 
+	list-style:none;
+}
+.paper-content-topic
+{
+	font-size: 16px;
+	color: #1f496f;
+	padding: 50px 0 10px 20px;
+}
+.paper-content-list
+{
+	width: 90%;
+	font-size: 12px;
+	line-height: 130%;
+}
+.paper-content-list li { 
+	margin-bottom: 10px;
+}
+.paper-content-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0F6';
+    margin:0 5px 0 -18px;
+}
+
+
+
+
+/* icon section in COLLECTION page */
+.font-icons
+{
+	height: 750px;
+}
+.font-icons-title
+{
+	width: 100%;
+	height: 75px;
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+.font-icons-title > p
+{
+	font-size: 20px;
+}
+.font-icons-content
+{
+	width: 100%;
+	height: 520px;
+	padding: 0 0 0 0;
+	float: center;
+}
+.font-icons-content-bullet
+{
+    	width: 100%;
+	height: 260px;
+	text-align: center;
+}
+.font-icons-content-bullet-title
+{
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+.font-icons-content-bullet-content
+{
+	width: 100%;
+	font-size: 15px;
+	text-align: center;
+	padding-left: 0;
+}
+
+/* show text when hovering on an icon */
+.fontawesome-icon
+{
+	display: inline-block;
+}
+.tooltiptext {
+    text-align: left;
+    padding: 0 5px;
+    position: absolute;
+    z-index: 1;
+    font-size: 10px;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+
+
+
+
+/* footer section */
+#section-footer
+{	
+	background-color: #ffffff;
+	text-align: center;
+	margin: 0 30px 0 30px;
+	border-top: #1f496f 0.5px solid;
+}
+.copyright
+{
+}
+.copyright-column
+{
+	width: 100%;
+	background-color: white;
+	height: 30px;
+	float: left;
+	padding: 15px 0 10px;
+}
+.copyright-column p
+{
+	font-size: 15px;
+	font-weight: 400;
+}

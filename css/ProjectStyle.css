@@ -1,0 +1,180 @@
+
+/* timeline section */
+.timeline
+{
+	display: block;
+}
+.timeline-title
+{
+	width: 30%;
+	height: 500px;
+	padding: 200px 0 0 0;
+	float: left;
+	text-align: center;
+	background-color: #eaf4f6;
+}
+.timeline-title > p
+{
+	font-size: 36px;
+	font-family: "Raleway", Helvetica;
+	color: #1f496f;
+}
+.timeline-content
+{
+	width: 68%;
+	height: 650px;
+	padding: 50px 0 0 2%;
+	float: left;
+	text-align: center;
+	background-color: #ffffff; 
+}
+
+
+
+
+
+/* facility location section */
+.facilitylocation
+{
+    float: left;
+    height: 950px;
+}
+.railroad
+{
+    float: right;
+    height: 600px;
+}
+.machinelearning
+{
+    float: left;
+    height: 250px;
+}
+.signaltiming
+{
+    float: right;
+    height: 900px;
+}
+.project
+{
+	display: block;
+}
+.project-area
+{
+	width: 30%;
+	padding: 100px 0 0 0;
+	text-align: center;
+	font-family: "Raleway", Helvetica;
+	background-color: #eaf4f6;
+}
+.project-area-name
+{
+	font-size: 28px;
+	color: #1f496f;
+}
+.project-area-time
+{
+	font-size: 18px;
+	color: #1f496f;
+}
+.project-area-coauthor
+{
+	font-size: 15px;
+	color: #1f496f;
+	line-height: 150%;
+	margin: 15px 0 0 0;
+}
+.project-area-coauthor > a
+{
+	color: #bbe385;
+	text-decoration: none;
+}
+.project-area-coauthor > a:hover
+{
+	color: #e2a432;
+}
+.project-area-institution
+{
+	font-size: 15px;
+	color: #1f496f;
+	line-height: 150%;
+	margin: 0;
+}
+.project-area-institution > a
+{
+	color: #8fd0d7;
+	text-decoration: none;
+}
+.project-area-institution > a:hover
+{
+	color: #e2a432;
+}
+.project-container
+{
+	width: 68%;
+	height: 350px;
+	float: left;
+	background-color: #ffffff; 
+	opacity: 1.0;
+}
+.project-image-container
+{
+	display: inline-block;
+	width: 30%;
+	line-height: 350px;
+	text-align: center;
+	vertical-align: top;
+}
+.project-image
+{
+	width: 80%;
+	vertical-align: middle;
+}
+.project-content
+{
+	display: inline-block;
+	width: 65%;
+	font-family: "Raleway", Helvetica;
+	padding-top: 30px;
+	padding-left: 4%;
+	text-align: left;
+	vertical-align: middle;
+}
+.project-title
+{
+	font-size: 20px;
+	color: #1f496f;
+	padding: 40px 0 15px 30px;
+}
+.project-detail
+{
+	width: 75%;
+	font-size: 15px;
+	color: #566c8e;
+	line-height: 150%;
+	padding-bottom: 20px;
+}
+.project-content ul
+{
+	padding-left: 58px; 
+	list-style:none;
+}
+.project-detail li { 
+	margin-bottom: 10px;
+}
+.project-detail li:before {    
+    font-family: 'FontAwesome';
+    content: '\f012';
+    margin:0 5px 0 -25px;
+}
+
+.signal-video
+{
+    text-align: center; 
+}
+
+#video
+{
+    width: 537px;
+    height: 300px; 
+}
+

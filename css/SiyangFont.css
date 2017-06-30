@@ -1,0 +1,67 @@
+/***********************************************/
+/* Created by Siyang Xie */
+/* Copyright (c) 2017. All rights reserved. */
+/***********************************************/
+
+
+/* Raleway font-family */
+@font-face {
+    font-family: 'RaleWay';
+    src: url(../fonts/raleway/Raleway-Regular.ttf) format('truetype');
+    font-weight: normal;
+  	font-style: normal;
+}
+@font-face {
+    font-family: 'RaleWay';
+    src: url(../fonts/raleway/Raleway-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'RaleWay';
+    src: url(../fonts/raleway/Raleway-Italic.ttf) format('truetype');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'RaleWay';
+    src: url(../fonts/raleway/Raleway-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* Trajan Pro font-family */
+@font-face{
+  font-family: 'TrajanPro';
+  src: url('../fonts/trajanpro/TrajanPro3-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'TrajanPro';
+  src: url('../fonts/trajanpro/TrajanPro3-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+
+/* Geometric 415BT font-family */
+@font-face {
+    font-family: 'Geometric415';
+    src: url(../fonts/geometric415bt/Geometric415BT-Regular.ttf) format('truetype');
+    font-weight: normal;
+  	font-style: normal;
+}
+@font-face {
+    font-family: 'Geometric415';
+    src: url(../fonts/geometric415bt/Geometric415BT-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Geometric415';
+    src: url(../fonts/geometric415bt/Geometric415BT-Italic.ttf) format('truetype');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Geometric415Lite';
+    src: url(../fonts/geometric415bt/Geometric415BT-Lite.ttf) format('truetype');
+    font-weight: normal;
+}
